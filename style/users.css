@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(252, 248, 241);
+}
+.card {
+    width: 100%;
+    padding: 10px;
+    margin-top: 4%;
+    box-shadow: 2px 2px 5px 2px silver;
+    text-align: center;
+    position: relative;
+}
+table,th,td{
+    padding: 15px;
+    box-shadow: 2px 2px 5px rgb(141, 155, 172);
+}
+
+tr:nth-child(even) {
+    background-color: silver;
+}
+table>thead {
+    background-color: rgb(1, 29, 105);
+    color: snow;

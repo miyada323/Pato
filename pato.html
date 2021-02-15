@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/m.course/style/pato.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400&family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar gradient1">
+        <div class="brand">
+            <a href="">
+                <img  src="/m.course/images/logo.png" alt="logo">
+            </a>
+        </div>
+
+        <div class="nav-container">
+            <ul class="nav-items">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">MENU</a></li>
+                <li><a href="#">RESERVATION</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <aside id="sideNav">
+        <button class="icon burger-btn" onclick="toggle(true)"></button>
+        <div class="r-menu"> 
+            <button class="false-btn" onclick="toggle(false)">X</button>
+       <div class="menuitem" href="#">HOME</div>
+       <div class="menuitem" href="#">MENU</div>
+       <div class="menuitem" href="#">GALLERY</div>
+       <div class="menuitem" href="#">ABOU</div>
+       <div class="menuitem" href="#">BLOG</div>
+       <div class="menuitem" href="#">CONTACT</div>
+       <button class="btn btn-black " href="#">RESERVATION</button>
+        </div>
+    </aside>
+    
+    <div id="container">
+        <img class="cont-img" src="images/master-slides-03.jpg">
+        <div id="counter"></div>
+    </div>
+    <header>
+        <div class="header-container">
+            <h2 class="welcome">welcome to</h2>
+            <h1>PATO PLACE</h1>
+           <button class="btn btn-danger">LOOK MENU</button> 
+        </div>
+    
+        <span style="display: none;">&lt;</span>  <!-- circle left -->
+        <span style="display: none;">&gt;</span>  <!-- circle right -->
+
+        <div class="circles-container">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </header>
+
+
+    <section class="section1">
+        <div>
+            <h2 class="title-restaurant">Italian Restaurant</h2>
+            <h1 class="title-2">welcome</h1>
+            
+            <pre class="t-center">
+                Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. Sed 
+                    fringilla, nunc sed imperdiet lacinia, nisl ante egestas mi, ac facilisis
+                    ligula sem id neque.
+            </pre>
+            
+        </div>
+        <div class="welcome-img">
+            <img class="welcoming-img" src="/m.course/images/our-story-01.jpg" alt="food">
+        </div>
+    </section>
+   
+    <section class="section2">
+        <div class="p-top p-bottom">
+            <h2 class="title3">Discover</h2>
+            <h3 class="title4">PATO PLACE</h3>
+        </div>
+    </section>
+    <script src="pato.js"></script>
+</body>
+</html>

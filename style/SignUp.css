@@ -1,0 +1,46 @@
+body {
+    background-color: snow;
+}
+.card-container {
+    width: 400px;
+    height: auto;
+    margin: auto;
+    background-color: rgb(241, 241, 241);
+    padding: 10px;
+    margin-top: 10%;
+    box-shadow: 2px 2px 5px 2px silver;
+}
+form > h1 {
+    text-transform: capitalize;
+}
+.btn-submit {
+    padding: .7rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 0, 92);
+    font-size: 16px;
+    border: none;
+}
+.btn-submit:hover {
+    background-color: rgb(1, 29, 105);
+    cursor: pointer;
+}
+form {
+    text-align: center;
+}
+input {
+    padding: 5px;
+    border: 1px solid silver;
+}
+.form-control {
+    margin: 5px;
+}
+.date {
+    width: 165px !important;
+}
+label {
+    display: inline-block;
+    width: 140px;
+    text-align: left;
+}

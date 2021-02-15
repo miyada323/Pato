@@ -1,0 +1,262 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+ul {
+   list-style: none;
+   margin: none;
+   padding: none;
+   display: inline-block;
+}
+#container{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+}
+.brand{
+ display: inline-block;
+ vertical-align: middle;
+ margin-left: 11rem;
+ margin-right: 5rem;
+}
+.nav-items  >li {
+    display: inline-block;
+    padding: 0 1rem;
+    line-height: 3.5rem;
+    padding-left: 25px;
+}
+.nav-items  >li > a {
+    color: white;
+}
+.nav-items  >li > a:hover {
+    transition: .4s all ease-in-out;
+    color: red;
+}
+.navbar{
+    color: white;
+    border-top: 4px solid red;
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.nav-container {
+    margin-top: 2rem;
+    text-align: center;
+    display: inline-block
+}
+.brand > a {
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+.gradient1 {
+   background:  linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0));
+}
+.header-container{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.1;
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+    font-size: 40px;
+}
+.btn{
+    background-color: white; 
+    margin-top: 40px;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px; 
+    color: white;
+    border: none;
+}
+.btn-danger {
+    color: red;
+}
+.btn-black {
+    color:  white;
+    background-color: black;
+}
+.btn-danger:hover, .btn-black:hover{
+    background-color: #ec1d25;
+    transition: .5s;
+    color: white;
+}
+.welcome{
+    margin: 10px;
+    font-size: 45px;
+}
+.burger-btn{
+    outline: none !important;
+    border: none;
+    background: transparent;
+}
+.icon{
+    width: 26px;
+    height: 15px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    top: 55px;
+    right: 100px;
+    position: absolute;
+    cursor: pointer;
+    margin-right: 60px;
+
+}
+.icon:hover{
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    transition: 1s;
+}
+#sideNav {
+    transition: .3s all ease-in-out ;
+}
+.r-menu{
+    transition: .3s all ease-in-out ;
+    background-color: white;
+    width: 0%;
+    text-align: center;
+    top: 0;
+    right: 0;
+    position: fixed;
+    height: 100%;
+    line-height: 2.5rem;
+    padding-top: 90px;
+    overflow: scroll;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+}
+.false-btn{
+    background: transparent;
+    border: none;
+    position: absolute;
+    font-size: 25px;
+    color: #111111;
+    padding: 10px;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+.menuitem:hover, .false-btn:hover {
+    color: red;
+    transition: .5s ease-in-out;
+}
+.gallery{
+font-family: Poppins;
+font-weight: 500;
+font-size: 18px;
+color: #222222;
+text-transform: uppercase;
+letter-spacing: 3px;
+margin-top: 40px;
+margin-bottom: 30px;
+cursor:default;
+}
+.circles-container{
+    text-align: center;
+    margin: 0%;
+    margin-top: 15%;
+}
+.circle{
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color:gray;
+    display: inline-block;
+    border: 2px solid transparent;
+    margin: 3px;
+}
+.circle:hover{
+    background-color:  #ec1d25;
+    transition: .5s ;
+    border: 2px solid white;
+}
+.section1{
+    background-image: url("/m.course/images/pattern1.png");
+    display: flex;
+    margin-top: 80px;
+    padding-top: 120px;
+    padding-bottom: 110px;
+}
+h2{
+    font-size: 30px;
+    line-height: 1.2;
+    color: #d61c22;
+    text-align: center;
+    margin-top: 30px;
+}
+.title-2{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    color: #222222;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 5px;
+}
+.t-center{
+    text-align: center;
+}
+pre{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #666666;
+    margin: 0px;
+}
+.welcome-img{
+    padding-right: 200px;
+    padding-left: 150px;
+}
+.welcoming-img{
+    width: 110%;
+    border-radius: 10px;
+    transition-duration: 0.6s;
+}
+.welcoming-img:hover{
+    transform: scale(1.1, 1.1);
+}
+.section2{
+    background-image: url("/m.course/images/bg-intro-01.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.p-bottom{
+    padding-bottom: 130px;
+}
+.p-top{
+    padding-top: 100px;
+}
+.title3{
+    font-size: 30px;
+    line-height: 1.2;
+    color: #d61c22;
+}
+.title4{
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 6px;
+    padding-top: 7px;
+    text-align: center;
+}
+.story-txt{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 12px;
+    color: #222222;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}

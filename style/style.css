@@ -1,0 +1,32 @@
+.container {background-color:  rgb(68, 76, 146);
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.container:hover {
+    background-color: rgb(105, 105, 105);
+    
+}
+
+.column{
+    width: 30%;
+    height: 70%;
+    display: inline-block;
+    margin-right: 1%;
+    font-size: 50px;
+    background-color: rgb(212, 215, 226);
+    transition: background 3s ;
+}
+
+@media (max-width: 700px) {
+    .column {
+        display: block;
+        width: 85%;
+        margin: 5px auto;
+    }
+}
+.column:hover {
+    background-color: rgb(11, 24, 66);
+    color: wheat;
+    transition: background 3s ;
+}
